@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title>Clothing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-banner">
+        <nav>
+            <a href="index.html"><img src="klogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="about us.html">About Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+       
+    </section>
+    <!------------about us page---------->
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>A Style That Suits You</h1>
+            <p>Welcome to Chyann Clothing Store At Chyann Clothing, we believe that style is a reflection of individuality. 
+            Established with the passion to redefine casual wear, we are more than just a T-shirt brand-we're a lifestyle. Rooted in the ethos of comfort, quality, and self-expression, our journey began with a simple vision: to create effortlessly stylish essentials that resonate with your unique personality. 
+            Our Story Inspired by the ever-evolving tapestry of modern life, Chyann Clothing emerged from the desire to break free from the ordinary. We understand that a T-shirt is more than just fabric; it's a canvas for self-expression. Each stitch, every detail, and the carefully selected materials tell a story of dedication to craftsmanship. Crafted for Comfort, Styled for You From the initial sketch to the final stitch, our T-shirts embody a commitment to comfort without compromising on style. </p>
+            <a href=""  class="hero-btn brown-btn">LEARN MORE</a>
+        </div>
+        <div class="about-col">
+            <img src="images/clothings.jpg">
+    </div>
+</section>
+
+
+
+
+<!------------footer------------->
+<section class="about">
+    <h4>About Us</h4>
+    <p>Chyann CO. emerged from the desire to break free<br> from the ordinary.
+        Together, let's redefine casual wear <br>and make a statement without saying a word.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+
+        </div>
+        <p> Made with <i class="fa fa-heart-o"></i>by Chyann Clothing</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------Javascript for Menu---------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";   
+        }
+    </script>
+
+            
+</body>
+</html>
